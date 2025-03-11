@@ -41,8 +41,8 @@ HKCERT CTF 2024
 | 43 | [MBTI 探測儀 / MBTI Radar](43-unity) | TWY | reverse, crypto | ★★★★★ (5) | 500 | 13 |
 | 47 | [我可愛的貓咪 / My Lovely Cats](47-mylovelycats) | apple | misc, reverse | ★★☆☆☆ (2) | 200 | 62 |
 | 48 | [Scratch ERCode](48-scratch-ercode) | apple | misc | ★★☆☆☆ (2) | 200 | 50 |
-| 49 | [Shellcode 運行器 3 / Shellcode Runner 3](49-shellcode-runner3) | botton | pwn | ★★★☆☆ (3) | 300 | 8 |
-| 49b | [Shellcode 運行器 3 復仇 / Shellcode Runner 3 Revenge](49b-shellcode-runner3-rev) | botton | pwn | ★★★☆☆ (3) | 150 | 23 |
+| 49 | [Shellcode 運行器 3 / Shellcode Runner 3](49-shellcode-runner-3) | botton | pwn | ★★★☆☆ (3) | 300 | 8 |
+| 49b | [Shellcode 運行器 3 復仇 / Shellcode Runner 3 Revenge](49b-shellcode-runner-3-rev) | botton | pwn | ★★★☆☆ (3) | 150 | 23 |
 | 50 | [黑色 C2 / Black C2](50-black-c2) | botton | pwn | ★★★★☆ (4) | 400 | 4 |
 | 51 | [翻轉英雄 / Flipper Hero](51-flipper-hero) | botton | pwn | ★★★☆☆ (3) | 250 | 10 |
 | 52a | [PDF 生成器（1） / Webpage to PDF (1)](52a-webpage-to-pdf-1) | apple | web, step by step! | ★★☆☆☆ (2) | 150 | 295 |
@@ -55,11 +55,11 @@ HKCERT CTF 2024
 | 58b | [ISH (2)](58b-ish-2) | Cire Meat Pop | pwn | ★★★★☆ (4) | 350 | 13 |
 | 58c | [ISH (3)](58c-ish-3) | Cire Meat Pop | pwn, web | ★★★★★ (5) | 500 | 10 |
 | 59a | [通靈字盤 5 / Tuning Keyboard 5](59a-tuning-keyboard-5) | Ozetta | misc | ★★★☆☆ (3) | 255 | 5 |
-| 59b | [通靈字盤 5.5 / Tuning Keyboard 5.5](59b-tuning-keyboard-5-5) | Ozetta | misc, web | ★★★★★ (5) | 444 | 3 |
-| 60a | [APT攻擊在哪裡 (1) / Where's the APT Attack (1)](60a-where-is-the-apt-attack) | NightSedge | forensic, step by step! | ★★☆☆☆ (2) | 150 | 167 |
-| 60b | [APT攻擊在哪裡 (2) / Where's the APT Attack (2)](60b-where-is-the-apt-attack-2) | NightSedge | forensic | ★★★★☆ (4) | 350 | 0 |
+| 59b | [通靈字盤 5.5 / Tuning Keyboard 5.5](59b-tuning-keyboard-5.5) | Ozetta | misc, web | ★★★★★ (5) | 444 | 3 |
+| 60a | [APT攻擊在哪裡 (1) / Where's the APT Attack (1)](60a-where-is-the-APT-attack) | NightSedge | forensic, step by step! | ★★☆☆☆ (2) | 150 | 167 |
+| 60b | [APT攻擊在哪裡 (2) / Where's the APT Attack (2)](60b-where-is-the-APT-attack-2) | NightSedge | forensic | ★★★★☆ (4) | 350 | 0 |
 | 62 | [JSPyaml](62-jspyaml) | Ozetta | web | ★★★★☆ (4) | 400 | 18 |
-| 63 | [嬰兒梳打餅 / Baby Cracker](63-babycracker) | harrier | reverse, step by step! | ★☆☆☆☆ (1) | 100 | 203 |
+| 63 | [嬰兒梳打餅 / Baby Cracker](63-baby-cracker) | harrier | reverse, step by step! | ★☆☆☆☆ (1) | 100 | 203 |
 | 64 | [ChatGGT (1)](64-chatggt) | Cire Meat Pop | pwn, step by step! | ★☆☆☆☆ (1) | 100 | 191 |
 | 98 | [最初的挑戰 / Sanity check](98-sanity-check) | Black Bauhinia |  | ☆☆☆☆☆ (0) | 10 | 736 |
 | 99 | [最終的挑戰 / Feedback](99-feedback) | Black Bauhinia |  | ☆☆☆☆☆ (0) | 10 | 319 |
