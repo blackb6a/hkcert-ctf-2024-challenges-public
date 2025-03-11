@@ -1,34 +1,31 @@
-Shellcode Runner 3
+Shellcode 運行器 3 / Shellcode Runner 3
 ===
 
-## Description
-Your favorite series of Shellcode runners is back! 
+## Summary
+
+* **Author:** botton
+* **Categories:** pwn
+* **Difficulty:** ★★★☆☆ (3)
+* **Points:** 300
+* **Solves:** 8 (Secondary: 3/130, Tertiary: 0/63, Open: 3/90, International: 2/545)
+
+## Description (zh-HK)
+
+你們最愛的Shellcode 運行器系列又回來了！
+這一次，我們不再用任何沙箱來限制您。這應該會成為一個簡單的挑戰......對吧？
+
+## Description (en)
+
+Your favorite series of Shellcode runners is back!
 This time, we're not limiting you with any sandboxes. This should be an easy challenge...right?
 
+## Attachments
+
+- [shellcode-runner3_c29e0384ec8798f73887dc00cec61cef.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/shellcode-runner3_c29e0384ec8798f73887dc00cec61cef.zip)
 
 
+## Environments
+
+- [tcp service connecting to container](env)
 
 
-
-## Remark
-
-Remark for deployment, or anything for internal can be written here. For example, the link to a very large file is: http://drive.google.com/abcd
-
-The template `{...LINK}` will be replaced with actual values after we determined the port numbers.
-
-If files are put into the `public/` folder, they will be zipped automatically. If a `zip` is put into the `public/` folder, it will not be zipped again.
-
-## Developing challenge
-
-Check out the challenges last year for sample on writing a chal with Docker:
-
-- [C](https://github.com/samueltangz/hkcert-ctf-2021-internal/tree/master/59-easyheap)
-- [Python](https://github.com/samueltangz/hkcert-ctf-2021-internal/tree/master/04-pyjail1)
-- [PHP](https://github.com/samueltangz/hkcert-ctf-2021-internal/tree/master/70-jqplayground)
-
-
-The main points are:
-
-- Do clean up after `apt install` using `rm -rf /var/lib/apt/lists/* /var/cache/apt/*`
-- Make sure the challenge files and the flag is owned by `root`, have restrictive permission `444` or lower and the directory with `555` or lower
-- Make sure a non-root user is executing the challenges

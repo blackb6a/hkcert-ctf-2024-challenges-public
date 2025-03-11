@@ -1,31 +1,31 @@
-Black C2
+黑色 C2 / Black C2
 ===
 
-## Description
+## Summary
+
+* **Author:** botton
+* **Categories:** pwn
+* **Difficulty:** ★★★★☆ (4)
+* **Points:** 400
+* **Solves:** 4 (Secondary: 2/130, Tertiary: 0/63, Open: 2/90, International: 0/545)
+
+## Description (zh-HK)
+
+你了解C2伺服器嗎？
+我做了一個簡單的 C2 伺服器模擬器，但我認為它太糟糕了。
+
+## Description (en)
+
 Do you know C2 server?
 I made a simple C2 server simulator but I think it is so broken.
 
+## Attachments
+
+- [black-c2_9d656a389449e04a9780ac12cc6ad680.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/black-c2_9d656a389449e04a9780ac12cc6ad680.zip)
 
 
-## Remark
+## Environments
 
-Remark for deployment, or anything for internal can be written here. For example, the link to a very large file is: http://drive.google.com/abcd
-
-The template `{...LINK}` will be replaced with actual values after we determined the port numbers.
-
-If files are put into the `public/` folder, they will be zipped automatically. If a `zip` is put into the `public/` folder, it will not be zipped again.
-
-## Developing challenge
-
-Check out the challenges last year for sample on writing a chal with Docker:
-
-- [C](https://github.com/samueltangz/hkcert-ctf-2021-internal/tree/master/59-easyheap)
-- [Python](https://github.com/samueltangz/hkcert-ctf-2021-internal/tree/master/04-pyjail1)
-- [PHP](https://github.com/samueltangz/hkcert-ctf-2021-internal/tree/master/70-jqplayground)
+- [tcp service connecting to container](env)
 
 
-The main points are:
-
-- Do clean up after `apt install` using `rm -rf /var/lib/apt/lists/* /var/cache/apt/*`
-- Make sure the challenge files and the flag is owned by `root`, have restrictive permission `444` or lower and the directory with `555` or lower
-- Make sure a non-root user is executing the challenges
