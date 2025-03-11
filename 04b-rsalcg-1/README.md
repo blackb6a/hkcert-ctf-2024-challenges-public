@@ -27,7 +27,7 @@ Other challenges in this series (not dependent on each other, start with the one
 
 ## Attachments
 
-- [rsalcg-1_4ac18c5a078fd5f5df7a11f16a47a919.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/rsalcg-1_4ac18c5a078fd5f5df7a11f16a47a919.zip)
+- [rsalcg-1_4ac18c5a078fd5f5df7a11f16a47a919.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/rsalcg-1_4ac18c5a078fd5f5df7a11f16a47a919.zip)
 
 
 

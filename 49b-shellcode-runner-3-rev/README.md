@@ -23,7 +23,7 @@ And the revenge also return...
 
 ## Attachments
 
-- [shellcode-runner3-rev_da20fdb73c388af369f0343c26cda1c6.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/shellcode-runner3-rev_da20fdb73c388af369f0343c26cda1c6.zip)
+- [shellcode-runner3-rev_da20fdb73c388af369f0343c26cda1c6.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/shellcode-runner3-rev_da20fdb73c388af369f0343c26cda1c6.zip)
 
 
 ## Environments

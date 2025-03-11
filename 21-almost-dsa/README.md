@@ -23,7 +23,7 @@ Well, I am not bothered. Convince me by giving me the flag!
 
 ## Attachments
 
-- [almost-dsa_148b8b2cd8c78df02bbdc24bd7fa3f56.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/almost-dsa_148b8b2cd8c78df02bbdc24bd7fa3f56.zip)
+- [almost-dsa_148b8b2cd8c78df02bbdc24bd7fa3f56.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/almost-dsa_148b8b2cd8c78df02bbdc24bd7fa3f56.zip)
 
 
 ## Environments

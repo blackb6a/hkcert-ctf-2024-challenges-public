@@ -53,7 +53,7 @@ Other challenges in this series: [1️⃣](/challenges/149915428) • [2️⃣](
 
 ## Attachments
 
-- [where-is-the-apt-attack_066205c226d954d2d0687f0f0c738b6e.7z](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/where-is-the-apt-attack_066205c226d954d2d0687f0f0c738b6e.7z)
+- [where-is-the-apt-attack_066205c226d954d2d0687f0f0c738b6e.7z](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/where-is-the-apt-attack_066205c226d954d2d0687f0f0c738b6e.7z)
 
 
 

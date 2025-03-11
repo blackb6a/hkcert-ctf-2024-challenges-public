@@ -19,7 +19,7 @@ You will get sser.pyc when you reverse the title. Now reverse it back for me.
 
 ## Attachments
 
-- [cypress_5788c6411dc79b08e280746a07306538.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/cypress_5788c6411dc79b08e280746a07306538.zip)
+- [cypress_5788c6411dc79b08e280746a07306538.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/cypress_5788c6411dc79b08e280746a07306538.zip)
 
 
 ## Environments

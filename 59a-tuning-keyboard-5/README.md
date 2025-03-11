@@ -27,7 +27,7 @@ Other challenges in this series (not dependent on each other, start with the one
 
 ## Attachments
 
-- [tuning-keyboard-5_0a98633513cf54dd1144131d6eec2f73.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/tuning-keyboard-5_0a98633513cf54dd1144131d6eec2f73.zip)
+- [tuning-keyboard-5_0a98633513cf54dd1144131d6eec2f73.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/tuning-keyboard-5_0a98633513cf54dd1144131d6eec2f73.zip)
 
 
 

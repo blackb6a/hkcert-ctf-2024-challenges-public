@@ -19,7 +19,7 @@ Wonton noodles are called 'small minced', rice is called 'handsome', so what was
 
 ## Attachments
 
-- [flag-checker_572d8ab991b56e0199b3308c422ee937.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/flag-checker_572d8ab991b56e0199b3308c422ee937.zip)
+- [flag-checker_572d8ab991b56e0199b3308c422ee937.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/flag-checker_572d8ab991b56e0199b3308c422ee937.zip)
 
 
 

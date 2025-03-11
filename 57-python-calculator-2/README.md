@@ -19,7 +19,7 @@ Someone told me that the Python calculator challenge from the HKCERT training pl
 
 ## Attachments
 
-- [python-calculator-2_55822d5da2cbf770d1feee3b5276bf5e.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/python-calculator-2_55822d5da2cbf770d1feee3b5276bf5e.zip)
+- [python-calculator-2_55822d5da2cbf770d1feee3b5276bf5e.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/python-calculator-2_55822d5da2cbf770d1feee3b5276bf5e.zip)
 
 
 ## Environments

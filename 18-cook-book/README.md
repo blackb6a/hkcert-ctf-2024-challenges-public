@@ -19,7 +19,7 @@ I love to cook. This time I made some delicious dim sum with an electronic code 
 
 ## Attachments
 
-- [cook-book_36d6d5166b707209aa9c2d74d3b64d71.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/cook-book_36d6d5166b707209aa9c2d74d3b64d71.zip)
+- [cook-book_36d6d5166b707209aa9c2d74d3b64d71.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/cook-book_36d6d5166b707209aa9c2d74d3b64d71.zip)
 
 
 

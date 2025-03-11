@@ -27,7 +27,7 @@ Other challenges in this series (not dependent on each other, start with the one
 
 ## Attachments
 
-- [maestro-2_b57368ee01e70c226bcb364cd8fb87a6.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/maestro-2_b57368ee01e70c226bcb364cd8fb87a6.zip)
+- [maestro-2_b57368ee01e70c226bcb364cd8fb87a6.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/maestro-2_b57368ee01e70c226bcb364cd8fb87a6.zip)
 
 
 ## Environments

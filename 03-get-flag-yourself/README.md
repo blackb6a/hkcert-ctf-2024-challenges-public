@@ -22,7 +22,7 @@ to entertain myself with a better coding experience. What a time to be alive!
 
 ## Attachments
 
-- [get-flag-yourself_1f92d57bf1472dcc00b3c5a7c27e18ef.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/get-flag-yourself_1f92d57bf1472dcc00b3c5a7c27e18ef.zip)
+- [get-flag-yourself_1f92d57bf1472dcc00b3c5a7c27e18ef.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/get-flag-yourself_1f92d57bf1472dcc00b3c5a7c27e18ef.zip)
 
 
 ## Environments

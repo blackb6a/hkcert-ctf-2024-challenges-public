@@ -25,7 +25,7 @@ Note: The attachment is updated due to a bug making the last part of the flag no
 
 ## Attachments
 
-- [babycracker_4d18ab5015963afa433023d601b60250.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/babycracker_4d18ab5015963afa433023d601b60250.zip)
+- [babycracker_4d18ab5015963afa433023d601b60250.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/babycracker_4d18ab5015963afa433023d601b60250.zip)
 
 
 

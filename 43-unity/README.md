@@ -19,7 +19,7 @@ Enter your name to receive the MBTI of the next 12 people you will meet later!
 
 ## Attachments
 
-- [unity_a733362e24a99fb1317c2e8db09994bc.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/unity_a733362e24a99fb1317c2e8db09994bc.zip)
+- [unity_a733362e24a99fb1317c2e8db09994bc.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/unity_a733362e24a99fb1317c2e8db09994bc.zip)
 
 
 

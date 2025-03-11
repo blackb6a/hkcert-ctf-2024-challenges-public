@@ -19,7 +19,7 @@ It's a basic disk forensic. Download the attachment, and fill in the answers to 
 
 ## Attachments
 
-- [one-way-room_246380e8e86693f3a8cf2fe9037857c4.7z](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/one-way-room_246380e8e86693f3a8cf2fe9037857c4.7z)
+- [one-way-room_246380e8e86693f3a8cf2fe9037857c4.7z](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/one-way-room_246380e8e86693f3a8cf2fe9037857c4.7z)
 
 
 ## Environments

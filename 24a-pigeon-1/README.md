@@ -35,7 +35,7 @@ Other challenges in this series: [1️⃣](/challenges/220391850) • [2️⃣](
 
 ## Attachments
 
-- [pigeon-1_8223e865166251a956801a7112fe3dad.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/pigeon-1_8223e865166251a956801a7112fe3dad.zip)
+- [pigeon-1_8223e865166251a956801a7112fe3dad.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/pigeon-1_8223e865166251a956801a7112fe3dad.zip)
 
 
 ## Environments

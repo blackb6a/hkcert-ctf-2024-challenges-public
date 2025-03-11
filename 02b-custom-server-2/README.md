@@ -35,7 +35,7 @@ Other challenges in this series: [1️⃣](/challenges/406561047) • [2️⃣](
 
 ## Attachments
 
-- [custom-server-2_ceb1b67883e9927a349ecc1cafa138a5.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/custom-server-2_ceb1b67883e9927a349ecc1cafa138a5.zip)
+- [custom-server-2_ceb1b67883e9927a349ecc1cafa138a5.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/custom-server-2_ceb1b67883e9927a349ecc1cafa138a5.zip)
 
 
 ## Environments

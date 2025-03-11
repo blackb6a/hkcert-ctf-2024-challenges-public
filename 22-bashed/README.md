@@ -29,7 +29,7 @@ The program has only one meaningful function, and the function is less than 500 
 
 ## Attachments
 
-- [bashed_89d984b177c984086cf3a5db1cb30adf.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/bashed_89d984b177c984086cf3a5db1cb30adf.zip)
+- [bashed_89d984b177c984086cf3a5db1cb30adf.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/bashed_89d984b177c984086cf3a5db1cb30adf.zip)
 
 
 ## Environments

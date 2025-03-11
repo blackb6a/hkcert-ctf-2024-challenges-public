@@ -19,7 +19,7 @@ I've been re-watching Fullmetal Alchemist recently and I'm obsessed with Alchemy
 
 ## Attachments
 
-- [chimera_3075c2014cffcee087009da2b01b409a.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/chimera_3075c2014cffcee087009da2b01b409a.zip)
+- [chimera_3075c2014cffcee087009da2b01b409a.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/chimera_3075c2014cffcee087009da2b01b409a.zip)
 
 
 ## Environments

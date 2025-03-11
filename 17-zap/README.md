@@ -25,7 +25,7 @@ Register an account and enjoy zero transaction fees (except the first and the la
 
 ## Attachments
 
-- [zap_f9df08d202eed40a94431209ee684a6a.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/zap_f9df08d202eed40a94431209ee684a6a.zip)
+- [zap_f9df08d202eed40a94431209ee684a6a.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/zap_f9df08d202eed40a94431209ee684a6a.zip)
 
 
 ## Environments

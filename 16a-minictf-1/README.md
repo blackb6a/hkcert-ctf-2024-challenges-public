@@ -37,7 +37,7 @@ Other challenges in this series (not dependent on each other, start with the one
 
 ## Attachments
 
-- [minictf-1_bc36d27733c38dceeec332324267b77d.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/minictf-1_bc36d27733c38dceeec332324267b77d.zip)
+- [minictf-1_bc36d27733c38dceeec332324267b77d.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/minictf-1_bc36d27733c38dceeec332324267b77d.zip)
 
 
 ## Environments

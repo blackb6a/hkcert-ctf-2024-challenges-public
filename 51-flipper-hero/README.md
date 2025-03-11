@@ -19,7 +19,7 @@ If you could flip the world, what would you change?
 
 ## Attachments
 
-- [flipper-hero_f3bdfe63e9a5c8fa3247b1449bcd8031.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/flipper-hero_f3bdfe63e9a5c8fa3247b1449bcd8031.zip)
+- [flipper-hero_f3bdfe63e9a5c8fa3247b1449bcd8031.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/flipper-hero_f3bdfe63e9a5c8fa3247b1449bcd8031.zip)
 
 
 ## Environments

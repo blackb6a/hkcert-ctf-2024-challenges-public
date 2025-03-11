@@ -23,7 +23,7 @@ Note: There is a [step-by-step guide](https://hackmd.io/@blackb6a/hkcert-ctf-202
 
 ## Attachments
 
-- [yet-another-crackme_27e983d514e2df15e61b1f0976db7a28.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/yet-another-crackme_27e983d514e2df15e61b1f0976db7a28.zip)
+- [yet-another-crackme_27e983d514e2df15e61b1f0976db7a28.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/yet-another-crackme_27e983d514e2df15e61b1f0976db7a28.zip)
 
 
 

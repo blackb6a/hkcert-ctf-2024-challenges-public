@@ -23,7 +23,7 @@ In the following task, you will listen to a recording. Follow the name and the c
 
 ## Attachments
 
-- [midi_0cae4078255f3d4d14bf63bc62f09b6a.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/midi_0cae4078255f3d4d14bf63bc62f09b6a.zip)
+- [midi_0cae4078255f3d4d14bf63bc62f09b6a.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/midi_0cae4078255f3d4d14bf63bc62f09b6a.zip)
 
 
 

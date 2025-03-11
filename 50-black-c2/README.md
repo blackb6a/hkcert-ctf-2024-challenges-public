@@ -21,7 +21,7 @@ I made a simple C2 server simulator but I think it is so broken.
 
 ## Attachments
 
-- [black-c2_9d656a389449e04a9780ac12cc6ad680.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/black-c2_9d656a389449e04a9780ac12cc6ad680.zip)
+- [black-c2_9d656a389449e04a9780ac12cc6ad680.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/black-c2_9d656a389449e04a9780ac12cc6ad680.zip)
 
 
 ## Environments

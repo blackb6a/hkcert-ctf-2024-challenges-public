@@ -27,7 +27,7 @@ Disclaimer: The challenge author didn't know I was going to copy his challenge.
 
 ## Attachments
 
-- [mask-mask-rsa_d11a2e5d3f444a9a854327b5c7bfe22f.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/mask-mask-rsa_d11a2e5d3f444a9a854327b5c7bfe22f.zip)
+- [mask-mask-rsa_d11a2e5d3f444a9a854327b5c7bfe22f.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/mask-mask-rsa_d11a2e5d3f444a9a854327b5c7bfe22f.zip)
 
 
 ## Environments

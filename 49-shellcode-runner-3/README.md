@@ -21,7 +21,7 @@ This time, we're not limiting you with any sandboxes. This should be an easy cha
 
 ## Attachments
 
-- [shellcode-runner3_c29e0384ec8798f73887dc00cec61cef.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/shellcode-runner3_c29e0384ec8798f73887dc00cec61cef.zip)
+- [shellcode-runner3_c29e0384ec8798f73887dc00cec61cef.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/shellcode-runner3_c29e0384ec8798f73887dc00cec61cef.zip)
 
 
 ## Environments

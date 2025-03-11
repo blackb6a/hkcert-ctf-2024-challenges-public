@@ -36,7 +36,7 @@ Note: Submit your flag without changing the case. (9-11-2024 00:40 HKT)
 
 ## Attachments
 
-- [scratch-ercode_3e5cbb46411d5babe20c1f0c7081c35f.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/scratch-ercode_3e5cbb46411d5babe20c1f0c7081c35f.zip)
+- [scratch-ercode_3e5cbb46411d5babe20c1f0c7081c35f.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/scratch-ercode_3e5cbb46411d5babe20c1f0c7081c35f.zip)
 
 
 

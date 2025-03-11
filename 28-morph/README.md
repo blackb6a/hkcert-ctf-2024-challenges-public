@@ -19,7 +19,7 @@ Binary sometimes mixed together, just like fried rice or bibimbap.
 
 ## Attachments
 
-- [morph_1fb4a6cd061e30ac35132781edfdf9dc.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/morph_1fb4a6cd061e30ac35132781edfdf9dc.zip)
+- [morph_1fb4a6cd061e30ac35132781edfdf9dc.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/morph_1fb4a6cd061e30ac35132781edfdf9dc.zip)
 
 
 

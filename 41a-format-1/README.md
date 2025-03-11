@@ -27,7 +27,7 @@ Other challenges in this series: [1️⃣](/challenges/359702030) • [2️⃣](
 
 ## Attachments
 
-- [format-1_3fce3decc9f21d2f479221e5b9b78bb6.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/format-1_3fce3decc9f21d2f479221e5b9b78bb6.zip)
+- [format-1_3fce3decc9f21d2f479221e5b9b78bb6.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/format-1_3fce3decc9f21d2f479221e5b9b78bb6.zip)
 
 
 

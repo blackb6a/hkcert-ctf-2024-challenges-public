@@ -23,7 +23,7 @@ Note: There is a [step-by-step guide](https://hackmd.io/@blackb6a/hkcert-ctf-202
 
 ## Attachments
 
-- [flag-hasher_52f0943e348f1f7e48fc1ca9da5fcfa8.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/flag-hasher_52f0943e348f1f7e48fc1ca9da5fcfa8.zip)
+- [flag-hasher_52f0943e348f1f7e48fc1ca9da5fcfa8.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/flag-hasher_52f0943e348f1f7e48fc1ca9da5fcfa8.zip)
 
 
 ## Environments

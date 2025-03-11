@@ -19,7 +19,7 @@ The first time I met Stack was during a high school programming lesson that intr
 
 ## Attachments
 
-- [profix-calc_729baed5a303456653429c28cf8de037.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/profix-calc_729baed5a303456653429c28cf8de037.zip)
+- [profix-calc_729baed5a303456653429c28cf8de037.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/profix-calc_729baed5a303456653429c28cf8de037.zip)
 
 
 ## Environments

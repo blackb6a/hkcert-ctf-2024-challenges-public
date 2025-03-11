@@ -39,7 +39,7 @@ Playground: https://c58b-ish-2.hkcert24.pwnable.hk?id=1
 
 ## Attachments
 
-- [ish-2_67009396e40433d53c5da30b65688ecd.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/ish-2_67009396e40433d53c5da30b65688ecd.zip)
+- [ish-2_67009396e40433d53c5da30b65688ecd.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/ish-2_67009396e40433d53c5da30b65688ecd.zip)
 
 
 ## Environments

@@ -30,7 +30,7 @@ Other challenges in this series (not dependent on each other, start with the one
 
 ## Attachments
 
-- [webpage-to-pdf-1_15c8547227b822545a78cbff640fb324.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/webpage-to-pdf-1_15c8547227b822545a78cbff640fb324.zip)
+- [webpage-to-pdf-1_15c8547227b822545a78cbff640fb324.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/webpage-to-pdf-1_15c8547227b822545a78cbff640fb324.zip)
 
 
 ## Environments

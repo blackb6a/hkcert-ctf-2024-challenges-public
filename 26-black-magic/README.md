@@ -23,7 +23,7 @@ Many language contains some black magic within. To those python expert: do you r
 
 ## Attachments
 
-- [black-magic_ca1fdd18e0cd1e6e619105f99bb76c26.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/black-magic_ca1fdd18e0cd1e6e619105f99bb76c26.zip)
+- [black-magic_ca1fdd18e0cd1e6e619105f99bb76c26.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/black-magic_ca1fdd18e0cd1e6e619105f99bb76c26.zip)
 
 
 

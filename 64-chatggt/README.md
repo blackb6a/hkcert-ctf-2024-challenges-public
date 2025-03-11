@@ -31,7 +31,7 @@ Other challenges in this series (not dependent on each other, start with the one
 
 ## Attachments
 
-- [chatggt_276cb471c623636b969de53bec682bb7.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/chatggt_276cb471c623636b969de53bec682bb7.zip)
+- [chatggt_276cb471c623636b969de53bec682bb7.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/chatggt_276cb471c623636b969de53bec682bb7.zip)
 
 
 ## Environments

@@ -45,7 +45,7 @@ Password for unzip: `infected`
 
 ## Attachments
 
-- [mylovelycats_ffa936aa961da4830f6774ec010aca0e.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges/releases/download/v1.0.0/mylovelycats_ffa936aa961da4830f6774ec010aca0e.zip)
+- [mylovelycats_ffa936aa961da4830f6774ec010aca0e.zip](https://github.com/blackb6a/hkcert-ctf-2024-challenges-public/releases/download/v1.0.0/mylovelycats_ffa936aa961da4830f6774ec010aca0e.zip)
 
 
 
