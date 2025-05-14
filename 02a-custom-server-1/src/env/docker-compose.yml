@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  proxy:
+    build:
+      context: ./proxy
+    ports:
+      - 8082:80
+  web:
+    build:
+      context: ./web
+    # TODO: remove below after debug
+    ports:
+      - 8081:8000

@@ -1,0 +1,152 @@
+from rich.progress import track
+from functools import reduce
+from operator import mul
+import itertools
+
+class LCG:
+    def __init__(self, a=None, c=None, seed=None):
+        self.seed = seed
+        if self.seed is None: self.seed = secrets.randbits(256) | 1
+        self.a = a
+        if self.a is None: self.a = secrets.randbits(256) | 1
+        self.c = c
+        if self.c is None: self.c = secrets.randbits(256)
+        self.m = 2**256
+
+        self.ainv = int(pow(self.a, -1, self.m))
+
+    def next(self):
+        self.seed = int((self.seed * self.a + self.c) % self.m)
+        return self.seed
+
+    def prev(self):
+        self.seed = int((self.seed - self.c) * self.ainv % self.m)
+
+    def __repr__(self):
+        return f'LCG(a={self.a}, c={self.c}, seed={self.seed})'
+
+def get_prime(lcg):
+    while True:
+        p = 0
+        for i in range(4):
+            p <<= 256
+            p |= lcg.next()
+        
+        if int(p).bit_length() != 1024: continue
+        if not is_prime(p): continue
+        return p
+
+def get_previous_prime(lcg):
+    while True:
+        for _ in range(8): lcg.prev()
+
+        p = 0
+        for i in range(4):
+            p <<= 256
+            p |= lcg.next()
+        
+        if int(p).bit_length() != 1024: continue
+        if not is_prime(p): continue
+        return p
+
+# ===
+
+# lcg = LCG(bits=256, a=1, c=14258939715516539295587731120991968901228171455016001595761489750577784177213)
+_a = 1
+_c = 14258939715516539295587731120991968901228171455016001595761489750577784177213
+
+n = 279784521303926518544200383491171400996467006054806060652945044514173580730320793076951350168517896308345078513333979433742090849938580604359515861344088875721354836410510396140219655796215325682295239294661185563708496490830500773420871847769568879274978173218440545663363350310752698066412613793738234395676975963986090446949443295350235071286869321557833967521199446244573020803085515110891641843096725596572980675877230459500589604078432572911282759481893882548258867802789628543364574694501159808895930747113406016718685856976531978713324829507636743778130758650283045513372598798114943752532619142439604369129493324057181519512588183783756314385380800844831034863151900295735342816476791991454383732133474515109758087482912794282007801160780475284011802960270750792620686906175026995623082009841402872948756740311519047998978234628057595438481437871594714428834059691733188294695393205472914443179153321670750219104306769911019089432918102588905808629421158434486927928786793524017503900505368724824170796339023214910404096208544407500008089429770878575702088992309354303731919302687039737672125268143820658069899761163750521000478474705014645224845757836226858836333259628284972467671764606702417658922805838428375959908059533
+e = 65537
+c = 12668023009781840908542456747150790958366008947388222673139950309896560492008423201703814113959062916216738813414905779255815616125482715748800637882572776464413794672305560913420843604427904075596817771292191713968187201485479797042112384390953800170012145372635694385419895184449315436204936393181245447065007450494691263361925589404791904565458416407877820052394996905208559706702586674504665164085593562932792149402776674399837342851449263354042894145700586851308674806581185881411576045932596814585050689676622481653401541955765009732517013919996864475158687111703292317464104677422251199063539026204584634157266215824371162154934075299210675220082034930924899581928745732959112210135371763739653442724659470938281648056607023621212384635978368358089470066114660978000389704285586405309891824263306072117253963803228130111794609335559502199299483268104278641029669532263556375348912538425414244341532656162870453118645106346455731193356791582571147804331894783849241501307040707035938949680381788534081674899875606974239354654393310878542209938345878740320797711262798440736790479007006147569066845667894663218494368548456732889916013895067014484182872120996578247736683746861794081478555452926231507488557048374863197550101866
+
+# ===
+
+q = 2**768 + 2**512 + 2**256 + 1
+candidates_p_mod_q = [
+    ((2**512 + 2**256 * 2 + 3) * _c - ((2**768+2**512+2**256) * y1 + (2**512+2**256) * y2 + 2**256 * y3)) % q for y1, y2, y3 in itertools.product([0, 1], repeat=3)
+]
+n_mod_q = n % q
+
+P = PolynomialRing(Zmod(q^2), ['x'] + [f'k{i}' for i in range(1, 4+1)] + [f'y{i}' for i in range(1, 4+1)])
+x, ks, ys = P.gens()[0], P.gens()[1:5], P.gens()[5:9]
+
+u_to_t_map = {}
+for y1, y2, y3 in itertools.product([0, 1], repeat=3):
+    u = ((2**512 + 2**256 * 2 + 3) * _c - ((2**768+2**512+2**256) * y1 + (2**512+2**256) * y2 + 2**256 * y3)) % q
+    t = (2**768 + 2**512 * 2 + 2**256 * 3 + 4) * _c - (2**768 + 2**512 + 2**256) * y1 - (2**512 + 2**256) * y2 - 2**256 * y3
+    u_to_t_map[u] = t
+
+weights = [1] + [1/2^256] + [1/32768 for _ in range(8)] + [1]
+Q = diagonal_matrix(weights)
+
+
+for u in track(list(itertools.combinations_with_replacement(candidates_p_mod_q, r=4))):
+    if prod(u) % q != n_mod_q: continue
+    print('First condition passed!')
+
+    f = prod([
+        (x - 2^256 * ys[i] + 4*ks[i]*_c) * q + u_to_t_map[u[i]]
+    for i in range(4)]) - n
+
+    A = Matrix(QQ, 11, 11)
+
+    assert int(f.coefficient(x)) % q == 0
+    for i in range(4): assert f.coefficient(ys[i]) % q == 0
+    for i in range(4): assert f.coefficient(ks[i]) % q == 0
+    assert f.constant_coefficient() % q == 0
+
+    A[0, 0] = int(f.coefficient(x)) // q
+    for i in range(4): A[1+i, 0] = int(f.coefficient(ys[i])) // q
+    for i in range(4): A[5+i, 0] = int(f.coefficient(ks[i])) // q
+    A[ 9, 0] = int(f.constant_coefficient()) // q
+    A[10, 0] = q
+    for i in range(10): A[i, i+1] = 1
+
+    A *= Q
+    A = A.LLL()
+    A /= Q
+
+
+    for row in A:
+        if row[0] != 0: continue
+        if row[-1] < 0: row = -row
+        if row[-1] != 1: continue
+        x = int(row[1])
+        print('Good preseed found!')
+
+        for k in range(4):
+            print(f'Trying {k = }')
+            seed = int((x-k*_c) % 2**256)
+            if seed & 1 == 0: continue
+            lcg = LCG(a=_a, c=_c, seed=seed)
+            p = get_prime(lcg)
+            print(f'{p = }')
+            print(f'{n % p = }')
+            if n % p != 0: continue
+            print(f'First seed found! {seed = }')
+
+            ps = [p]
+            while True:
+                p = get_prime(lcg)
+                if n % p != 0: break
+                ps.append(p)
+
+            print(f'{ps = } ({len(ps) = })')
+
+            lcg = LCG(a=_a, c=_c, seed=seed)
+            while len(ps) < 4:
+                p = get_previous_prime(lcg)
+                assert n % p == 0
+                ps = [p] + ps
+
+            print(f'{ps = }')
+            assert prod(ps) == n
+            phis = [p-1 for p in ps]
+            phi = prod(phis)
+            e = 65537
+            d = int(pow(e, -1, phi))
+
+            m = pow(c, d, n)
+            flag = int(m).to_bytes((int(m).bit_length()+7)//8, 'big')
+            print(f'{flag = }')
+            done

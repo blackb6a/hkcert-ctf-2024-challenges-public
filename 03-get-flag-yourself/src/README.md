@@ -1,0 +1,3 @@
+cGFja2FnZSBtYWluCgppbXBvcnQgIm9zIgoKZnVuYyBtYWluKCkgewoJb3MuRXhpdCgxKQp9
+
+> Open to other solutions
